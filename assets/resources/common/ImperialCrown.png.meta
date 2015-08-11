@@ -1,0 +1,49 @@
+{
+  "__type__": "Editor.TextureMeta",
+  "ver": 0,
+  "uuid": "54b84f02-17f3-4dda-a90c-b81232b04297",
+  "subRawData": [
+    {
+      "asset": {
+        "__type__": "Fire.Sprite",
+        "_name": "ImperialCrown",
+        "_objFlags": 0,
+        "pivot": {
+          "__type__": "Fire.Vec2",
+          "x": 0.5,
+          "y": 0.5
+        },
+        "trimX": 0,
+        "trimY": 0,
+        "width": 22,
+        "height": 23,
+        "texture": {
+          "__uuid__": "54b84f02-17f3-4dda-a90c-b81232b04297"
+        },
+        "rotated": false,
+        "x": 0,
+        "y": 0,
+        "rawWidth": 22,
+        "rawHeight": 23,
+        "pixelLevelHitTest": false,
+        "alphaThreshold": 0.1,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0
+      },
+      "meta": {
+        "__type__": "Editor.SpriteMeta",
+        "ver": 0,
+        "uuid": "8ae0d343-04dd-4b13-8d65-03af4259b70a",
+        "atlasTag": "default",
+        "trimType": 0,
+        "trimThreshold": 1,
+        "rawTextureUuid": "54b84f02-17f3-4dda-a90c-b81232b04297"
+      }
+    }
+  ],
+  "type": 1,
+  "wrapMode": 1,
+  "filterMode": 1
+}

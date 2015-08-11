@@ -1,0 +1,49 @@
+{
+  "__type__": "Editor.TextureMeta",
+  "ver": 0,
+  "uuid": "35211c63-54d8-4c56-af0d-acfc4f52d1b1",
+  "subRawData": [
+    {
+      "asset": {
+        "__type__": "Fire.Sprite",
+        "_name": "girl",
+        "_objFlags": 0,
+        "pivot": {
+          "__type__": "Fire.Vec2",
+          "x": 0.5,
+          "y": 0.5
+        },
+        "trimX": 4,
+        "trimY": 0,
+        "width": 264,
+        "height": 567,
+        "texture": {
+          "__uuid__": "35211c63-54d8-4c56-af0d-acfc4f52d1b1"
+        },
+        "rotated": false,
+        "x": 4,
+        "y": 0,
+        "rawWidth": 268,
+        "rawHeight": 567,
+        "pixelLevelHitTest": false,
+        "alphaThreshold": 0.1,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0
+      },
+      "meta": {
+        "__type__": "Editor.SpriteMeta",
+        "ver": 0,
+        "uuid": "29384b09-e7a5-488c-ad1b-dec44bedee71",
+        "atlasTag": "default",
+        "trimType": 0,
+        "trimThreshold": 1,
+        "rawTextureUuid": "35211c63-54d8-4c56-af0d-acfc4f52d1b1"
+      }
+    }
+  ],
+  "type": 1,
+  "wrapMode": 1,
+  "filterMode": 1
+}
