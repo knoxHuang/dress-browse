@@ -8,14 +8,6 @@ var SubMenu = Fire.Class({
     // 属性
     properties: {
         offset: new Fire.Vec2(0, 150),
-        btn_DressUp: {
-            default: null,
-            type: Fire.UIButton
-        },
-        btn_InteractiveFamily: {
-            default: null,
-            type: Fire.UIButton
-        },
         btn_GoToIndoor: {
             default: null,
             type: Fire.UIButton
@@ -26,9 +18,6 @@ var SubMenu = Fire.Class({
         // 常用的变量/数据
         var ent = Fire.Entity.find('/ODataBase');
         this.odataBase = ent.getComponent('ODataBase');
-
-        this.btn_DressUp.onClick = this.onDressUpEvent.bind(this);
-        this.btn_InteractiveFamily.onClick = this.onInteractiveFamilyEvent.bind(this);
         this.btn_GoToIndoor.onClick = this.onGoToIndoorEvent.bind(this);
     },
 
@@ -36,11 +25,6 @@ var SubMenu = Fire.Class({
     openSubMenu: function (type) {
         this.curType = type;
         this.entity.active = true;
-
-        this.btn_InteractiveFamily.entity.active = false;
-        if(type !== 1 && !Fire.isMobile) {
-            this.btn_InteractiveFamily.entity.active = true;
-        }
     },
 
     changerScreen: function () {
@@ -52,23 +36,6 @@ var SubMenu = Fire.Class({
         }
     },
 
-    // 我要装扮
-    onDressUpEvent: function () {
-        if (this.curType === 2) {
-            if (!this.odataBase.hasHouse) {
-                this.odataBase.tipCommon.openTipsWindow("您还未拥有自己的别墅，赶快到商城 \n 挑选属于自己的别墅吧！", function () {
-                    window.open("http://www.saike.com/houseshop/newhouse.php");
-                })
-                return;
-            }
-        }
-        this.odataBase.globalData.gotoType = 1;
-        this.changerScreen();
-    },
-    // 家人互动
-    onInteractiveFamilyEvent: function () {
-
-    },
     // 进入室内
     onGoToIndoorEvent: function () {
         if (this.curType === 2) {

@@ -1,7 +1,7 @@
 {
   "__type__": "Editor.TextureMeta",
   "ver": 0,
-  "uuid": "af43b213-6558-425d-9b37-a7c1703091f9",
+  "uuid": "c15aa378-3c54-417d-8e7f-9e1d027b4810",
   "subRawData": [
     {
       "asset": {
@@ -18,7 +18,7 @@
         "width": 157,
         "height": 61,
         "texture": {
-          "__uuid__": "af43b213-6558-425d-9b37-a7c1703091f9"
+          "__uuid__": "c15aa378-3c54-417d-8e7f-9e1d027b4810"
         },
         "rotated": false,
         "x": 0,
@@ -35,11 +35,11 @@
       "meta": {
         "__type__": "Editor.SpriteMeta",
         "ver": 0,
-        "uuid": "726e7e3f-43e8-41fa-8831-a5910d6eb6f7",
+        "uuid": "3478796e-0aba-4cc2-a831-ecc91a61e080",
         "atlasTag": "default",
         "trimType": 0,
         "trimThreshold": 1,
-        "rawTextureUuid": "af43b213-6558-425d-9b37-a7c1703091f9"
+        "rawTextureUuid": "c15aa378-3c54-417d-8e7f-9e1d027b4810"
       }
     }
   ],

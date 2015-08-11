@@ -16,61 +16,11 @@ var SMainMenuMgr = Fire.Class({
         },
         spacing: {
             default: 140
+        },
+        btn_returnOut: {
+            default: null,
+            type: Fire.UIButton
         }
-    },
-    // 是否装扮过
-    _hasDressUp: function () {
-        var hasDressUp = false;
-        var bgComp = this.sdataBase.bgRender.getComponent('SFurniture');
-        if (this.sdataBase.bgRender.sprite !== bgComp.defaultSprite) {
-            hasDressUp = true;
-        }
-        var GdComp = this.sdataBase.groundRender.getComponent('SFurniture');
-        if (this.sdataBase.groundRender.sprite !== GdComp.defaultSprite) {
-            hasDressUp = true;
-        }
-        var children = this.sdataBase.room.getChildren();
-        if (children.length > 2) {
-            hasDressUp = true;
-        }
-        return hasDressUp;
-    },
-    // 清空场景
-    resetScreen: function () {
-        var children = this.sdataBase.room.getChildren();
-        if (children.length <= 2){
-            return;
-        }
-        for (var i = 2; i < children.length; i++) {
-            children[i].destroy();
-        }
-    },
-    // 我要装扮事件
-    _onDoDressEvent: function () {
-        if (this._hasDressUp()) {
-            this.sdataBase.scontrolMgr.reset();
-            this.sdataBase.sthreeMenuMgr.closeMenu();
-            this.sdataBase.stipsWindow.openWindow('是否清空场景..', function () {
-                this._initScreen();
-                this.resetScreen();
-            }.bind(this));
-        }
-        this.sdataBase.ssecondaryMenuMgr.openSecondaryMenu();
-        this.sdataBase.characters.entity.active = false;
-    },
-    // 保存装扮事件
-    _onSaveDressEvent: function () {
-        this.sdataBase.characters.entity.active = false;
-        this.sdataBase.scontrolMgr.reset();
-        this.sdataBase.sthreeMenuMgr.closeMenu();
-        this.sdataBase.ssaveRoomWindow.openWindow();
-    },
-    // 我的装扮事件
-    _onMyDressEvent: function () {
-        this.sdataBase.characters.entity.active = false;
-        this.sdataBase.scontrolMgr.reset();
-        this.sdataBase.sthreeMenuMgr.closeMenu();
-        this.sdataBase.smyDressUpWindow.openWindow();
     },
     // 返回室外
     _onGoToOutDoorEvent: function () {
@@ -78,27 +28,7 @@ var SMainMenuMgr = Fire.Class({
     },
     // 初始化菜单
     _initMenu: function () {
-        var self = this;
-        var children = this.entity.getChildren();
-        self._menuList = [];
-        for(var i = 0, len = children.length; i < len; ++i) {
-            var ent = children[i];
-            var btn = ent.getComponent(Fire.UIButton);
-            if (! btn) { continue; }
-            // 绑定按钮事件
-            if (ent.name === "1") {
-                btn.onClick = self._onDoDressEvent.bind(self);
-            }
-            else if (ent.name === "2") {
-                btn.onClick = self._onSaveDressEvent.bind(self);
-            }
-            else if (ent.name === "3") {
-                btn.onClick = self._onMyDressEvent.bind(self);
-            }
-            else if (ent.name === "4") {
-                btn.onClick = self._onGoToOutDoorEvent.bind(self);
-            }
-        }
+        this.btn_returnOut.onClick = this._onGoToOutDoorEvent.bind(this);
     },
     _initScreen: function () {
         this.sdataBase.preloadInitScreenData();

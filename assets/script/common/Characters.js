@@ -41,8 +41,10 @@ var Comp = Fire.Class({
         newSprite.pixelLevelHitTest = true;
         this.host_name.text = name;
         this.host.sprite = newSprite
-        this.dataBase.globalData.hostSprite = newSprite;
-        this.dataBase.globalData.hostName = name;
+        if (this.dataBase.globalData && this.dataBase.globalData.hostSprite) {
+            this.dataBase.globalData.hostSprite = newSprite;
+            this.dataBase.globalData.hostName = name;
+        }
     },
 
     addFamily: function (image, name) {

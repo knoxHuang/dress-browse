@@ -49,18 +49,6 @@ var MainMenu = Fire.Class({
         btn_GoToVilla: {
             default: null,
             type: Fire.Toggle
-        },
-        btn_GoToMyAdd: {
-            default: null,
-            type: Fire.UIButton
-        },
-        btn_GoToHouseShop: {
-            default: null,
-            type: Fire.UIButton
-        },
-        btn_GoToDressShop: {
-            default: null,
-            type: Fire.UIButton
         }
     },
 
@@ -174,10 +162,6 @@ var MainMenu = Fire.Class({
         this.btn_GoToSingle.onClick = this.onGoToSingleEvent.bind(this);
         this.btn_GoToVilla.onClick = this.onGoToVillaEvent.bind(this);
 
-        this.btn_GoToMyAdd.onClick = this.onGoToMyAddEvent.bind(this);
-        this.btn_GoToHouseShop.onClick = this.onGoToHouseShopEvent.bind(this);
-        this.btn_GoToDressShop.onClick = this.onGoToDressShopEvent.bind(this);
-
         this.documentElement = document.documentElement;
         this.width = this.documentElement.clientWidth;
         this.height = this.documentElement.clientHeight;
@@ -224,18 +208,6 @@ var MainMenu = Fire.Class({
         console.log("进入别墅外景");
         var self = this;
         self.loadScreen(2);
-    },
-    onGoToMyAddEvent: function () {
-        console.log("打开我加入的");
-        this.odataBase.myAddFamilyWin.openWindow();
-    },
-    onGoToHouseShopEvent: function () {
-        console.log("打开房屋商城");
-        window.open("http://www.saike.com/houseshop/nshop.php");
-    },
-    onGoToDressShopEvent: function () {
-        console.log("打开扮靓商城");
-        window.open('http://www.saike.com/housedress/shop.php');
     },
 
     // called every frame

@@ -127,16 +127,6 @@ var NetworkMgr = Fire.Class({
         };
         this.sendData(postData);
     },
-    // 询问是否可以装扮
-    RequestCanDressRoom: function (sendData, callback) {
-        var postData = {
-            url: "http://m.saike.com/suitdress/beginSuit.html",
-            sendData: sendData,
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
     // 请求房间数据
     RequestIntoHomeData: function (sendData, callback) {
         var postData = {
@@ -170,85 +160,6 @@ var NetworkMgr = Fire.Class({
         var postData = {
             url: "http://m.saike.com/suitdress/floorList.html",
             sendData: {},
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    // 解除关系
-    RequestDisassociateList: function (sendData, callback) {
-        var postData = {
-            url: "http://m.saike.com/suitdress/releaseRelation.html",
-            sendData: sendData,
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    // 请求单品家具菜单列表
-    RequestSingleItemsMenu: function (callback) {
-        var postData = {
-            url: 'http://m.saike.com/housedress/getShopType.html',
-            sendData: {},
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    // 请求单品家具列表
-    RequestSingleItems: function (data, callback) {
-        var postData = {
-            url: "http://m.saike.com/housedress/getShopList.html",
-            sendData: {
-                tid: data.tid,
-                page: data.page,
-                each: data.each
-            },
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    //请求套装列表数据
-    RequestSetItemsMenu: function (data,  callback) {
-        var postData = {
-            url: "http://m.saike.com/housedress/shopSuit.html",
-            sendData: {
-                page: data.page,
-                each: data.each
-            },
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    //请求套装数据
-    RequestSetItemsData: function (id,  callback) {
-        var postData = {
-            url: "http://m.saike.com/housedress/shopsuitdetail.html",
-            sendData: {
-                prod_suitid: id
-            },
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    // 物品柜(单品)
-    RequestBackpackSingle: function (sendData, callback) {
-        var postData = {
-            url: "http://m.saike.com/suitdress/backpackSingle.html",
-            sendData: sendData,
-            cb: callback,
-            errCb: this._errorCallBack.bind(this)
-        };
-        this.sendData(postData);
-    },
-    // 物品柜(套装)
-    RequestBackpackSuit: function (sendData, callback) {
-        var postData = {
-            url: "http://m.saike.com/suitdress/mySuit.html",
-            sendData: sendData,
             cb: callback,
             errCb: this._errorCallBack.bind(this)
         };

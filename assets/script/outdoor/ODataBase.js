@@ -78,17 +78,6 @@ var ODataBase = Fire.Class({
         ent = Fire.Entity.find('/Characters');
         this.characters = ent.getComponent('Characters');
         //
-        ent = Fire.Entity.find('/Win_MyAddFamily');
-        this.myAddFamilyWin = ent.getComponent('MyAddFamilyWindow');
-        //
-        ent = Fire.Entity.find('/Win_Plan');
-        this.planWin = ent.getComponent('PlanWindow');
-        //
-        ent = Fire.Entity.find('/Tip_NoAddFamily1');
-        this.tipNoAddFamily1 = ent.getComponent('TipsWindow');
-        ent = Fire.Entity.find('/Tip_NoAddFamily2');
-        this.tipNoAddFamily2 = ent.getComponent('TipsWindow');
-        //
         ent = Fire.Entity.find('/Tip_RelationMgr');
         this.relationMgr = ent.getComponent('RelationMgr');
         //

@@ -34,81 +34,9 @@ var MainMenuMgr = Fire.Class({
         self.dataBase.switchRoomWin.openWindow(0, sendData);
         self.dataBase.characters.entity.active = false;
     },
-    // 房屋扮靓
-    onHouseDressEvent: function () {
-        console.log('房屋扮靓');
-        var sendData = {
-            mark: this.dataBase.mark
-        };
-        var self = this;
-        self.dataBase.loadTips.openTips('请求房屋扮靓，请稍后...');
-        self.dataBase.netWorkMgr.RequestCanDressRoom(sendData, function (serverData) {
-            self.dataBase.loadTips.closeTips();
-            if (serverData.status === 10000) {
-                self.dataBase.hasCanSave = true;
-                self.dataBase.usercc = serverData.usercc;
-                // 表示有数据与服务器不符合需要更新
-                if (serverData.hasupdate > 0) {
-                    var sendData = {
-                        mark: self.dataBase.mark
-                    };
-                    self.dataBase.intoRoom(sendData, function () {
-                        self.dataBase.firstMenuMgr.openMenu();
-                    });
-                }
-                else {
-                    self.dataBase.firstMenuMgr.openMenu();
-                }
-            }
-            else {
-                self.dataBase.tipsWindow.openTipsWindow(serverData.desc);
-            }
-        });
-        self.dataBase.characters.entity.active = false;
-    },
-    // 保存装扮
-    _onSaveDressEvent: function () {
-        var self = this;
-        if (! self.dataBase.hasSaveRoom()) {
-            self.dataBase.tipsWindow.openTipsWindow('请先进行房屋扮靓..');
-            return;
-        }
-        self.dataBase.tipsWindow.openTipsWindow('是否确定保存装扮？', function () {
-            if (self.dataBase.hasPay()) {
-                self.dataBase.payMentWindow.openWindow();
-            }
-            else {
-                self.dataBase.loadTips.openTips('保存装扮中！请稍后...');
-                self.dataBase.saveRoom(function () {
-                    self.dataBase.loadTips.closeTips();
-                    self.dataBase.tipsWindow.openTipsWindow('保存装扮成功..');
-                    self.dataBase.firstMenuMgr.closeMenu();
-                    self.dataBase.secondMenuMgr.closeMenu();
-                    self.dataBase.threeMenuMgr.closeMenu();
-                    self.dataBase.resetScreen(function () {
-                        var sendData = {
-                            mark: self.dataBase.mark
-                        };
-                        self.dataBase.loadTips.openTips('刷新场景，请稍后...');
-                        self.dataBase.intoRoom(sendData, function () {
-                            self.dataBase.loadTips.closeTips();
-                        });
-                    });
-                });
-            }
-            console.log('保存装扮');
-        });
-        self.dataBase.characters.entity.active = false;
-    },
-    // 扮靓商场
-    _onGoToMallEvent: function () {
-        console.log('扮靓商场');
-        window.open('http://www.saike.com/housedress/shop.php');
-    },
     // 返回室外
     _onGoToOutDoorEvent: function () {
         console.log('返回室外');
-        //window.open('http://www.saike.com/housedress/map.php');
         Fire.Engine.loadScene('launch');
     },
     // 获取菜单按钮并且绑定事件
@@ -126,15 +54,6 @@ var MainMenuMgr = Fire.Class({
                 btn.onClick = self._onChangeRoomEvent.bind(self);
             }
             else if (ent.name === "2") {
-                btn.onClick = self.onHouseDressEvent.bind(self);
-            }
-            else if (ent.name === "3") {
-                btn.onClick = self._onSaveDressEvent.bind(self);
-            }
-            else if (ent.name === "4") {
-                btn.onClick = self._onGoToMallEvent.bind(self);
-            }
-            else if (ent.name === "5") {
                 btn.onClick = self._onGoToOutDoorEvent.bind(self);
             }
             self._menuList.push(btn);
