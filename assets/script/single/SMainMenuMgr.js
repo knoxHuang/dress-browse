@@ -11,9 +11,6 @@ var SMainMenuMgr = Fire.Class({
         margin: {
             default: Fire.v2(72, 150)
         },
-        imageMargin: {
-            default: Fire.v2(1200, 900)
-        },
         spacing: {
             default: 140
         },
@@ -75,15 +72,5 @@ var SMainMenuMgr = Fire.Class({
         var screenSize = Fire.Screen.size.mul(camera.size / Fire.Screen.height);
         var newPos = Fire.v2(-screenSize.x / 2 + this.margin.x, screenSize.y / 2 - this.margin.y);
         this.entity.transform.position = newPos;
-
-        //
-        var camera = Fire.Camera.main;
-        var bgWorldBounds = this.sdataBase.bgRender.getWorldBounds();
-        var bgLeftTopWorldPos = new Fire.Vec2(bgWorldBounds.xMin + this.imageMargin.x, bgWorldBounds.yMin + this.imageMargin.y);
-        var bgleftTop = camera.worldToScreen(bgLeftTopWorldPos);
-        var screenPos = new Fire.Vec2(bgleftTop.x, bgleftTop.y);
-        var worldPos = camera.screenToWorld(screenPos);
-        this.sdataBase.characters.entity.transform.worldPosition = worldPos;
-
     }
 });

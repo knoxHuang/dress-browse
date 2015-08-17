@@ -32,7 +32,6 @@ var MainMenuMgr = Fire.Class({
             mark: this.dataBase.mark
         };
         self.dataBase.switchRoomWin.openWindow(0, sendData);
-        self.dataBase.characters.entity.active = false;
     },
     // 返回室外
     _onGoToOutDoorEvent: function () {

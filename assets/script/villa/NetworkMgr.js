@@ -32,7 +32,7 @@ var NetworkMgr = Fire.Class({
     getToKenValue: function () {
         if (this.localTest) {
             //this.token = 'MTAwMjExODMzMF9mMThjZmM4ODI4NzRhZTBlMTA5MTZjZTJkODk0ZjgzZl8xNDM2MTY3ODMyX3dhcA==';
-            this.token = 'MTAwMTQ5MjY4NV8xYWEzYzFkNmE0ZWI3YzlkNmQxYmJmNDc4NTNmZjhkM18xNDM2MzI2Mzc2X3dhcA';
+            this.token = 'MTAwMDAwMDA1N181ZDNkMjEwY2E4M2Q2ODVmOGE5ZWFkNmUwN2IwODM1OV8xNDM5NzgyMDEwX3dhcF8xMDAxNDkyNjg1';
         }
         else{
             this.token = this.getQueryString('token');

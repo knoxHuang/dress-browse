@@ -2,278 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebe4c368-b01e-4056-bb47-89dbcae5c15b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\animtion\options.anim" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\animtion\options.anim.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Delete.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Hide.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Hide.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\MirrorFlip.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\MirrorFlip.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Move.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\Move.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\quan.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\options\quan.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\dropDownMark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\single\dropDownMark.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\firstMenuBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\firstMenuBg.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\normal-menu.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\normal-menu.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\press-menu.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\first-menu\press-menu.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\itemsCabinet.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\itemsCabinet\set.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\itemsCabinet\set.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\itemsCabinet\single.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\itemsCabinet\single.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\main-menu\5.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\a4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\quan.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\options\quan.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\other-menu\1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\other-menu\1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\payment.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\payment.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\paymentBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\paymentBg.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\paymentIssues.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\paymentTip\paymentIssues.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\addNum.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\addNum.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\cat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\cat.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\pay.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\pay.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\payBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\payBg.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\recharge.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\recharge.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\tab.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\tab.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\title.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\resources\villa\payment\title.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\outdoor\MyAddFamilyWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\outdoor\MyAddFamilyWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\outdoor\PlanWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\outdoor\PlanWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SControlMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SControlMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SMyDressUpData.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SMyDressUpData.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SMyDressUpWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SMyDressUpWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSaveRoomWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSaveRoomWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSecondaryMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSecondaryMenu.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSecondaryMenuMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SSecondaryMenuMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SThreeMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SThreeMenu.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SThreeMenuMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\SThreeMenuMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\Screenshot.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\single\Screenshot.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ControlMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ControlMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\FloorWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\FloorWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\PayMentWindow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\PayMentWindow.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\PriceDescription.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\PriceDescription.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\SecondMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\SecondMenu.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\SecondMenuMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\SecondMenuMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ThreeMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ThreeMenu.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ThreeMenuMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\ThreeMenuMgr.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\TipsPayMent.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\TipsPayMent.js.meta" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\TipsPayProblems.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\fireball\dress-browse\assets\script\villa\TipsPayProblems.js.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/1.png" afterPath="$PROJECT_DIR$/assets/resources/single/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu/2.png" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/stitle.png" afterPath="$PROJECT_DIR$/assets/resources/single/stitle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu/1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu/1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu/2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu/2.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/Characters.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/Characters.js.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/script/common/Family.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/script/common/Viewers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/Characters.js" afterPath="$PROJECT_DIR$/assets/script/common/Characters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/DataBase.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/DataBase.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/DataBase.js" afterPath="$PROJECT_DIR$/assets/script/villa/DataBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/FamilyInfo.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/FamilyInfo.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/FirstMenuMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/FirstMenuMgr.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/Furniture.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/Furniture.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/GlobalData.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/GlobalData.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/ImperialCrown.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/ImperialCrown.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js" afterPath="$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/GlobalData.js" afterPath="$PROJECT_DIR$/assets/script/common/GlobalData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js" afterPath="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js" afterPath="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/Merchandise.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/Merchandise.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js" afterPath="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/NewWorkWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/NewWorkWindow.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/NoHouseWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/NoHouseWindow.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js" afterPath="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/Options.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/Options.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js" afterPath="$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/Papelera-vac-130.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/Papelera-vac-130.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/Relation.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/Relation.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/RelationMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/RelationMgr.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SDataBase.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SDataBase.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SDataBase.js" afterPath="$PROJECT_DIR$/assets/script/single/SDataBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SErrorPromptWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SErrorPromptWindow.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SFurniture.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SFurniture.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SLoadingTips.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SLoadingTips.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js" afterPath="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js" afterPath="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single/STipsWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/single/STipsWindow.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/SubMenu.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/SubMenu.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/SubMenu.js" afterPath="$PROJECT_DIR$/assets/script/outdoor/SubMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js" afterPath="$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js" afterPath="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/TipLoad.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/TipLoad.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor/Tip_MyAdd.js.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor/Tip_MyAdd.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa/TipsWindow.js.meta" afterPath="$PROJECT_DIR$/assets/script/villa/TipsWindow.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/Toggle.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/Toggle.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/Tools.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/Tools.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/UIButton.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/UIButton.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common/UIPopupList.js.meta" afterPath="$PROJECT_DIR$/assets/script/common/UIPopupList.js.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/add.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/add.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/addTips.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/addTips.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/addtitle.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/addtitle.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/animtion.meta" afterPath="$PROJECT_DIR$/assets/animtion.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/bg (1).png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/bg (1).png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/bg (2).png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/bg (2).png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/bg1111.jpg.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/bg1111.jpg.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/bg_1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/bg_1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/bg_1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/bg_1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/bg_2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/bg_2.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/bg_2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/bg_2.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/bg_3.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/bg_3.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/boy.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/boy.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/boy.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/boy.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_Interactive.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_Interactive.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_cancel.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_cancel.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_close.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_close.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_del.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_del.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_downDown.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_downDown.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_downUp.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_downUp.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_dressUp.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_dressUp.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_goIn.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/btn_goIn.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/btn_goToOpen.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/btn_goToOpen.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_next.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_next.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_open.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_open.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_previous.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_previous.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_removeAll.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_removeAll.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/btn_select.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/btn_select.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/btn_select_normal.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/btn_select_normal.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button/btn_sure.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button/btn_sure.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/button.meta" afterPath="$PROJECT_DIR$/assets/resources/common/button.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/chFont.fnt.meta" afterPath="$PROJECT_DIR$/assets/fonts/chFont.fnt.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/chFont_0.png.meta" afterPath="$PROJECT_DIR$/assets/fonts/chFont_0.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/check.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/check.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common.meta" afterPath="$PROJECT_DIR$/assets/resources/common.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/common.meta" afterPath="$PROJECT_DIR$/assets/script/common.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/del.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/del.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/expBar.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/expBar.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/floor_01.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/floor_01.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts.meta" afterPath="$PROJECT_DIR$/assets/fonts.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/form.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/form.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/girl.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/girl.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/girl.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/girl.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/headIcon.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/headIcon.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/heart.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/heart.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/initRes/initBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/initRes/initBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/initRes/initGd.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/initRes/initGd.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/initRes.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/initRes.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/inputBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/inputBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu/labelBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu/labelBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/launch.fire.meta" afterPath="$PROJECT_DIR$/assets/scene/launch.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dress-browse.iml" afterPath="$PROJECT_DIR$/.idea/dress-browse.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/launch.fire" afterPath="$PROJECT_DIR$/assets/scene/launch.fire" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/win-switchRoom/layoutBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/win-switchRoom/layoutBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/animtion/loading.anim.meta" afterPath="$PROJECT_DIR$/assets/animtion/loading.anim.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/loading.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/loading.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/loading.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/loading.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/loading/loading.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/loading/loading.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/loading2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/loading2.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/loading/loading2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/loading/loading2.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui/mainMenuBar.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui/mainMenuBar.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/mask.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/mask.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/menuBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/menuBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/myhome.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/myhome.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/mylived.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/mylived.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/mytitle.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/mytitle.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/noBuilt.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/noBuilt.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/outdoor.meta" afterPath="$PROJECT_DIR$/assets/script/outdoor.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources.meta" afterPath="$PROJECT_DIR$/assets/resources.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/main-menu/roomTitle.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/main-menu/roomTitle.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/saveBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/saveBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene.meta" afterPath="$PROJECT_DIR$/assets/scene.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script.meta" afterPath="$PROJECT_DIR$/assets/script.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/secondBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/secondBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/single.fire.meta" afterPath="$PROJECT_DIR$/assets/scene/single.fire.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/single.fire" afterPath="$PROJECT_DIR$/assets/scene/single.fire" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single.meta" afterPath="$PROJECT_DIR$/assets/resources/single.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/single.meta" afterPath="$PROJECT_DIR$/assets/script/single.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/singleBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/singleBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/stitle.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/stitle.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/other-menu/tab.png.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/other-menu/tab.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/threeBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/threeBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/tipWin.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/tipWin.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/title.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/title.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/ui.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/ui.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/villa.fire.meta" afterPath="$PROJECT_DIR$/assets/scene/villa.fire.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/villa.fire" afterPath="$PROJECT_DIR$/assets/scene/villa.fire" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa.meta" afterPath="$PROJECT_DIR$/assets/resources/villa.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/villa.meta" afterPath="$PROJECT_DIR$/assets/script/villa.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/outdoor/villaBg.png.meta" afterPath="$PROJECT_DIR$/assets/resources/outdoor/villaBg.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/vip.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/vip.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/vip1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/vip1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/single/wallpaper_01.png.meta" afterPath="$PROJECT_DIR$/assets/resources/single/wallpaper_01.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/villa/win-switchRoom.meta" afterPath="$PROJECT_DIR$/assets/resources/villa/win-switchRoom.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/window1.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/window1.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/resources/common/window/window2.png.meta" afterPath="$PROJECT_DIR$/assets/resources/common/window/window2.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dress-browse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -294,31 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NetworkMgr.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/villa/NetworkMgr.js">
+      <file leaf-file-name="Characters.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/script/common/Characters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloorMenuMgr.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/villa/DataBase.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.189189">
-              <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6698565">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -328,37 +57,57 @@
         <entry file="file://$PROJECT_DIR$/assets/script/outdoor/MainMenu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/common/UIButton.js">
+      <file leaf-file-name="SDataBase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/single/SDataBase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FloorWindow.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../dress-houses/assets/script/villa/FloorWindow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8086125">
-              <caret line="138" column="21" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Characters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/common/Characters.js">
+      <file leaf-file-name="MainMenuMgr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/villa/DataBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.756757">
+              <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwitchRoomWindow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloorMenuMgr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -379,21 +128,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js" />
-        <option value="$PROJECT_DIR$/assets/script/single/SDataBase.js" />
-        <option value="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js" />
-        <option value="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js" />
-        <option value="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js" />
         <option value="$PROJECT_DIR$/assets/script/outdoor/SubMenu.js" />
-        <option value="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js" />
-        <option value="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js" />
         <option value="$PROJECT_DIR$/assets/script/villa/FloorWindow.js" />
-        <option value="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js" />
         <option value="$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js" />
         <option value="$PROJECT_DIR$/assets/script/common/UIPopupList.js" />
-        <option value="$PROJECT_DIR$/assets/script/villa/DataBase.js" />
-        <option value="$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js" />
+        <option value="$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js" />
+        <option value="$PROJECT_DIR$/assets/script/single/SNetworkMgr.js" />
+        <option value="$PROJECT_DIR$/assets/script/outdoor/MainMenu.js" />
+        <option value="$PROJECT_DIR$/assets/script/outdoor/ODataBase.js" />
+        <option value="$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js" />
+        <option value="$PROJECT_DIR$/assets/script/villa/NetworkMgr.js" />
+        <option value="$PROJECT_DIR$/assets/script/common/Family.js" />
+        <option value="$PROJECT_DIR$/assets/script/common/GlobalData.js" />
+        <option value="$PROJECT_DIR$/assets/script/single/SDataBase.js" />
         <option value="$PROJECT_DIR$/assets/script/common/Characters.js" />
+        <option value="$PROJECT_DIR$/assets/script/common/Viewers.js" />
+        <option value="$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js" />
+        <option value="$PROJECT_DIR$/assets/script/villa/DataBase.js" />
+        <option value="$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js" />
+        <option value="$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js" />
       </list>
     </option>
   </component>
@@ -522,16 +275,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="library">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="dress-browse">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -608,6 +351,28 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="single">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dress-browse">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="script">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="outdoor">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -645,7 +410,7 @@
     <property name="js.eslint.nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dress-houses" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -680,6 +445,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -735,170 +506,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/script/single/SFurniture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/single/SLoadingTips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/single/SNetworkMgr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/single/SDataBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/Relation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/NoHouseWindow.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/ODataBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/SubMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/Merchandise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js.meta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="61" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/villa/NetworkMgr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/FirstMenuMgr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/common/UIPopupList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="38" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/MainMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/villa/DataBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.189189">
-          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/common/UIButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -911,6 +522,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/DataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/MainMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/UIButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dress-houses/assets/script/villa/FloorWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/common/Characters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -919,10 +562,263 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/single/SLoadingTips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/NoHouseWindow.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/SubMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/OtherMenuMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="61" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/FirstMenuMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../dress-houses/assets/script/villa/FloorWindow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8086125">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/MainMenu.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/single/SNetworkMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-saike-home/resource/library/4f/4fb0e600-ea41-4e54-af0c-a3f4b6ae3fc7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/single/SMainMenuMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/Characters.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/ServerNetWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/ODataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9186604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-saike-home/project.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8349282">
+          <caret line="1631" column="46" selection-start-line="1631" selection-start-column="46" selection-end-line="1631" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/Merchandise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/UIPopupList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4832535">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/single/SFurniture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33971292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/Relation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7320574">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/Merchandise.js.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/NetworkMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="118" selection-start-line="34" selection-start-column="118" selection-end-line="34" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/UIButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/Family.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/GlobalData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/Viewers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28588516">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/outdoor/MainMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/MainMenuMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/DataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.756757">
+          <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/single/SDataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/SwitchRoomWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/villa/FloorMenuMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common/Characters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6698565">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding />
         </state>
       </provider>

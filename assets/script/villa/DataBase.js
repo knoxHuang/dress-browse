@@ -50,7 +50,6 @@ var DataBata = Fire.Class({
         this.loadImageList = {};
         //
         this.familyList = null;
-        this.familyGo = null;
     },
     // 载入时
     onLoad: function () {
@@ -78,44 +77,29 @@ var DataBata = Fire.Class({
             // 这里因为是为了保持默认的背景跟地板的图片
             self.saveDefaultData();
             self.loadTips.closeTips();
-
-            if (self.globalData) {
-                if (self.globalData.gotoType === 2) {
-                    self.updateCharacters();
-                    self.characters.entity.active = true;
-                }
-                else {
-                    self.mainMenuMgr.onHouseDressEvent();
-                }
-            }
+            self.updateCharacters();
         });
     },
 
     updateCharacters: function () {
         // 屋主数据
         var self = this;
+        self.characters.entity.active = false;
         if (self.familyList.length > 0) {
-            self.characters.entity.active = true;
-            var host = self.familyList[0];
-            var host_url = host.figure_url;
-            var host_name = host.user_name;
-            self.loadImage(host_url, function (error, image) {
-                self.characters.setHost(image, host_name);
-            });
+            var hostInfo = self.familyList[0];
+            self.characters.refreshCharacters(hostInfo);
+        }
+        self.viewers.entity.active = false;
+        // 浏览者
+        if (self.familyList.length > 1) {
+            self.viewers.entity.active = true;
+            var viewersInfo = self.familyList[1];
+            self.viewers.refreshViewers(viewersInfo);
         }
         // 家人数据
-        if (self.familyList.length > 1) {
-            var family = self.familyList[1];
-            var family_url = family.figure_url;
-            var family_name = family.relation_name + " " + family.user_name;
-            self.loadImage(family_url, function (error, image) {
-                if(self.familyGo){
-                    self.characters.updateFamily(self.familyGo, image, family_name);
-                }
-                else{
-                    self.familyGo = self.characters.addFamily(image, family_name);
-                }
-            });
+        self.familys.entity.active = false;
+        if (self.familyList.length > 2) {
+            self.familys.refreshFamily(self.familyList);
         }
     },
 
@@ -162,9 +146,15 @@ var DataBata = Fire.Class({
         // 温馨提示窗口
         ent = Fire.Entity.find('/Tips_window');
         this.tipsWindow = ent.getComponent('TipsWindow');
-        //
+        // 主人形象
         ent = Fire.Entity.find('/Characters');
         this.characters = ent.getComponent('Characters');
+        // 浏览者
+        ent = Fire.Entity.find('/Viewers');
+        this.viewers = ent.getComponent('Viewers');
+        // 浏览者
+        ent = Fire.Entity.find('/Familys');
+        this.familys = ent.getComponent('Family');
         //
         ent = Fire.Entity.find('/GlobalData');
         if (ent) {
@@ -395,8 +385,6 @@ var DataBata = Fire.Class({
             self.default_beijing = serverData.default_beijing;
             self.mainMenuMgr.refreshCurHomeType(self.room_name);
             self.mainMenuMgr.refreshCurVillaName(serverData.villa_name);
-
-            self.characters.entity.active = false;
             self.familyList = serverData.family;
 
             // 获取套装信息

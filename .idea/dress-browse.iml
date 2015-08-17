@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/assets/scene" />
       <excludeFolder url="file://$MODULE_DIR$/library" />
       <excludeFolder url="file://$MODULE_DIR$/local" />
+      <excludeFolder url="file://$MODULE_DIR$/mobile-saike-home" />
       <excludeFolder url="file://$MODULE_DIR$/settings" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
     </content>

@@ -115,7 +115,6 @@ var SwitchRoomWindow = Fire.Class({
         self.dataBase.intoRoom(sendData, function () {
             self.dataBase.loadTips.closeTips();
             self.closeWindow();
-
             self.dataBase.updateCharacters();
             self.dataBase.characters.entity.active = true;
         });
@@ -130,10 +129,8 @@ var SwitchRoomWindow = Fire.Class({
     // 关闭按钮事件
     _onCloseWindowEvent: function () {
         this.closeWindow();
-        if (this.entranceType === 1) {
-            this.dataBase.floorWin.openWindow();
-        }
         this._removeSwitchRoom();
+        this.dataBase.floorMenu.resetFloor();
     },
     //
     start: function () {

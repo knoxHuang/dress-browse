@@ -8,6 +8,7 @@ var Comp = Fire.Class({
         this.floorIndex = 0;
         this.hasMouseDowning = false;
         this.drodownListBg = null;
+        this.listFloorType = ""; // 保存未切换之前的楼层用于撤销
     },
     // 属性
     properties: {
@@ -46,6 +47,10 @@ var Comp = Fire.Class({
         this.dataBase.switchRoomWin.openWindow(1, sendData);
     },
 
+    resetFloor: function () {
+        this.btn_downUp.setText(this.listFloorType);
+    },
+
     // 鼠标按下
     onMouseDownEvent: function (event) {
         if (this.drodownList.active && this.floorList.indexOf(event.target) === -1) {
@@ -57,13 +62,14 @@ var Comp = Fire.Class({
     initFloorMenu: function () {
         var self = this;
         self.btn_downUp.setText("第1层");
+        self.listFloorType = self.btn_downUp.textContent.text;
 
         for(var i = 0, len = self.floorList.length; i < len; ++i ) {
             self.floorList[i].active = false;
         }
 
         self.dataBase.netWorkMgr.RequestFloorList(function (serverData) {
-            console.log(serverData);
+            console.log(serverData.list.myfloor);
             var count = serverData.list.myfloor.length;
             //self.tips.active = count > 1;
             self.drodownListBg.customHeight = count * 60;
@@ -74,11 +80,12 @@ var Comp = Fire.Class({
                 }
                 if (self.floorList.length > i) {
                     var flootEnt = self.floorList[i];
+                    flootEnt.name = floor.storey_id;
                     var btn = flootEnt.getComponent(Fire.UIButton);
                     btn.setText("第"+ floor.storey_id +"层");
                     flootEnt.active = true;
                 }
-                self.floorDataList.push(floor);
+                self.floorDataList[floor.storey_id] = floor;
             }
         });
     },
@@ -86,7 +93,8 @@ var Comp = Fire.Class({
     onSelectTypeEvent: function (event) {
         this.drodownList.active = false;
         this.floorIndex = parseInt(event.target.name) ;
-        this.btn_downUp.setText("第" + (this.floorIndex + 1) + "层");
+        this.listFloorType = this.btn_downUp.textContent.text;
+        this.btn_downUp.setText("第" + this.floorIndex + "层");
 
         if (this.floorDataList.length > this.floorIndex && this.floorDataList[this.floorIndex] != null) {
             this.onGoToHouse(this.floorDataList[this.floorIndex].mark)

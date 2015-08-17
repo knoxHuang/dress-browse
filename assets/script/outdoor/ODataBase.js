@@ -74,9 +74,12 @@ var ODataBase = Fire.Class({
             ent.dontDestroyOnLoad = true;
         }
         this.globalData = ent.getComponent("GlobalData");
-        //
+        // 屋主
         ent = Fire.Entity.find('/Characters');
         this.characters = ent.getComponent('Characters');
+        // 浏览者
+        ent = Fire.Entity.find('/Viewers');
+        this.viewers = ent.getComponent('Viewers');
         //
         ent = Fire.Entity.find('/Tip_RelationMgr');
         this.relationMgr = ent.getComponent('RelationMgr');

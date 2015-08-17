@@ -6,13 +6,15 @@ var SDataBase = Fire.Class({
     constructor: function () {
         // 初始化场景数据
         this.initScreenData = [];
-        // 我的装扮数据总数
-        this.myDressUpTotal = 0;
-        // 我的装扮数据列表
-        this.myDressUpDataSheets = [];
         // 保存所有图片
         this.loadImageList = {};
     },
+
+    // 属性
+    properties: {
+        imageMargin: Fire.v2(1500, 800),
+    },
+
     // 加载预制
     _loadObject: function () {
         // 房间头节点
@@ -23,11 +25,12 @@ var SDataBase = Fire.Class({
         // 地板
         ent = Fire.Entity.find('/Room/ground');
         this.groundRender = ent.getComponent(Fire.SpriteRenderer);
-        // 人物形象
+        // 屋主
         ent = Fire.Entity.find('/Characters');
-        this.characters = ent.getComponent(Fire.SpriteRenderer);
-        ent = Fire.Entity.find('/Characters/CharactersName');
-        this.charactersName = ent.getComponent(Fire.BitmapText);
+        this.characters = ent.getComponent('Characters');
+        // 浏览者
+        ent = Fire.Entity.find('/Viewers');
+        this.viewers = ent.getComponent('Viewers');
         // 家具模板
         this.tempFurniture = this.entity.find('Furniture');
         // 网络连接
@@ -99,16 +102,17 @@ var SDataBase = Fire.Class({
     },
     // 预加载初始化场景
     preloadInitScreenData: function () {
-        this.characters.entity.active = false;
+        this.characters.entity.active = true;
+        this.viewers.entity.active = true;
         if (this.globalData) {
-            if (this.globalData.gotoType === 2) {
-                this.characters.sprite = this.globalData.hostSprite;
-                this.charactersName.text = this.globalData.hostName;
-                this.characters.entity.active = true;
-            }
-            else {
-                this.ssecondaryMenuMgr.openSecondaryMenu();
-            }
+            var newName = this.globalData.hostName;
+            var newRelationName = this.globalData.hostRelationName;
+            var newSprite = this.globalData.hostSprite;
+            this.characters.refreshCharacters(newName, newRelationName, newSprite);
+            newName = this.globalData.viewersName;
+            newRelationName = this.globalData.viewersRelationNname;
+            newSprite = this.globalData.viewersSprite;
+            this.viewers.refreshViewers(newName, newRelationName, newSprite);
         }
 
         // 如何有缓存用缓存的没有再去下载

@@ -30,7 +30,7 @@ var SNetworkMgr = Fire.Class({
     // 获取用户信息
     getToKenValue: function () {
         if (this.localTest) {
-            this.token = 'MTAwMTQ5MjY4NV8xYWEzYzFkNmE0ZWI3YzlkNmQxYmJmNDc4NTNmZjhkM18xNDM2MzI2Mzc2X3dhcA';
+            this.token = 'MTAwMDAwMDA1N181ZDNkMjEwY2E4M2Q2ODVmOGE5ZWFkNmUwN2IwODM1OV8xNDM5NzgyMDEwX3dhcF8xMDAxNDkyNjg1';
         }
         else{
             this.token = this.getQueryString('token');
